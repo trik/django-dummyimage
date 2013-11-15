@@ -1,4 +1,4 @@
-from django.conf.urls.defaults import *
+from django.conf.urls import patterns
 from django.http import HttpResponseNotFound
 
 WIDTH_RE = r'(?P<width>\d+)'
