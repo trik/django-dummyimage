@@ -13,8 +13,8 @@ setup(
     zip_safe=False, # because we're including media that Django needs
     include_package_data = True,
     install_requires = [
-        'django',
-        'pil',
+        'Django',
+        'PIL',
     ],
     classifiers=[
         'Programming Language :: Python',
