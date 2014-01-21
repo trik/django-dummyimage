@@ -14,7 +14,7 @@ setup(
     include_package_data = True,
     install_requires = [
         'Django',
-        'PIL',
+        'Pillow',
     ],
     classifiers=[
         'Programming Language :: Python',
