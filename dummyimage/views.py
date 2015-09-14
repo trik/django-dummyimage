@@ -18,7 +18,7 @@ def render_image(request, width, height, format):
         raise Http404
 
     # write image to response
-    response = HttpResponse(mimetype='image/%s' % image_format)
+    response = HttpResponse(content_type='image/%s' % image_format)
     #TODO: catch exceptions
     dummyimage.save(response, image_format)
 
